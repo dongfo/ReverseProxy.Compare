@@ -49,3 +49,5 @@
 ```bash
     bombardier-windows-amd64.exe -c 1000 -d 30s -l http://127.0.0.1:8084/WeatherForecast
 ```
+### 
+![对比](.\compare.png)
