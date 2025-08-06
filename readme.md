@@ -11,7 +11,7 @@
 
 * api运行命令
 ```bash
-
+     cd .\bin\Release\net9.0\win-x64\publish\
     WebApplication1.exe --urls http://*:8081
 
 ```
@@ -22,7 +22,11 @@
 * yarp
 ```bash
     cd .\yarpTest\
+    
     dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+    
+    cd .\bin\Release\net9.0\win-x64\publish\
+
     yarpTest.exe --urls http://*:8082
 
 ```
