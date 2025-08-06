@@ -1,0 +1,6 @@
+@yarpTest_HostAddress = http://localhost:5201
+
+GET {{yarpTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
